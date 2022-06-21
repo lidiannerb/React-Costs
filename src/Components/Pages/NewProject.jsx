@@ -1,8 +1,13 @@
+import ProjectForm from "../Project/ProjectForm";
+import styles from "./NewProject.module.css";
+
 const NewProject = () => {
   return ( 
-    <>
-      <h1>New Project</h1>
-    </>
+    <div className={styles.new_project_container}>
+      <h1>Criar Projeto</h1>
+      <p>Crie seu projeto e adicione serviços</p>
+      <ProjectForm /> 
+    </div>
    );
 }
  
