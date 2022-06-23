@@ -22,7 +22,7 @@ const NewProject = () => {
       .then((resposta) => resposta.json())
       .then((data) => {
         console.log(data);
-        navigate("/Projects")
+        navigate("/Projects", { state: {message: "Projeto criado com  sucesso"}})
       })
       .catch((erro) => console.log(erro));
   };
