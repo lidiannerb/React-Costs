@@ -9,8 +9,8 @@ const NewProject = () => {
 
   const createPost = (project) => {
   // inicilizando cost and services. Caso houvesse um backend com sistema real, esses dados ficariam lá
-    project.cost = 0;
-    project.service = [];
+    project.cost = 0
+    project.services = []
 
     fetch("http://localhost:5000/projects", {
       method: "POST",
@@ -21,10 +21,10 @@ const NewProject = () => {
     })
       .then((resposta) => resposta.json())
       .then((data) => {
-        console.log(data);
+        console.log(data)
         navigate("/Projects", { state: {message: "Projeto criado com  sucesso"}})
       })
-      .catch((erro) => console.log(erro));
+      .catch((erro) => console.log(erro))
   };
 
   return (

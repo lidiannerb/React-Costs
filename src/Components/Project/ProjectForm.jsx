@@ -6,19 +6,17 @@ import SubmitButton from "../Form/SubmitButton";
 import styles from "./ProjectForm.module.css";
 
 const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
-
-  const [categories, setCategories] = useState([]);
+  const [categories, setCategories] = useState([])
+  const [project, setProject] = useState(projectData || {})
 
   // quando um projeto é enviado para edição, passa-se pela página pai, entao precisa saber se os dados 
   // vem, para iniciar eles ou não, por isso a const project recebe os dados do projeto ou um objeto vazio
   
-  const [project, setProject] = useState(projectData || {});
-
   useEffect(() => {
     fetch("http://localhost:5000/categories", {
       method: "GET",
       headers: {
-        "Content-Type": "application=json"
+        "Content-Type": "application/json",
       },
     })
       .then((resposta) => resposta.json())
@@ -28,20 +26,13 @@ const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
       .catch((erro) => console.log(erro))
   },[])
 
-
-  const submit = (e) => {
-    e.preventDefault()
-    // console.log(project);
-    handleSubmit(project)
-  }
   //handleChange é um método dinamico que vai alterar o valor de todo input 
   // vamos usar a mesma coisa para alterar a categoria, mudando o tipo de eventi
-  const handleChange = (e) => {
+  function handleChange(e) {
     setProject({ ...project, [e.target.name] : e.target.value })
   }
-
   // Aqui estamos inserindo um objeto dentro de um objeto
-  const handleSelect = (e) => {
+  function handleSelect(e) {
     setProject({ 
       ...project, 
       category: {
@@ -49,11 +40,13 @@ const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
         name: e.target.options[e.target.selectedIndex].text,
       },
    })
-
   }
 
-  // onSubmit é um evento do React, que no caso abaixo está enviando os dados do projeto para o servidor
-
+  const submit = (e) => {
+    e.preventDefault()
+    handleSubmit(project)
+  }
+  // onSubmit é um evento do React, que está enviando os dados do projeto para o servidor
   return (
     <form onSubmit={submit} className={styles.form}> 
       <Input
@@ -62,7 +55,7 @@ const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
         name="name"
         placeholder="Insira o nome do projeto"
         handleOnChange={handleChange}
-        value={project.name}
+        value={project.name ? project.name : ""}
       />
       <Input
         type="number"
@@ -70,7 +63,7 @@ const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
         name="budget"
         placeholder="Insira o valor do orçamento total"
         handleOnChange={handleChange}
-        value={project.budget}
+        value={project.budget ? project.budget : ""}
       />
       <Select 
         name="categoty_id" 
