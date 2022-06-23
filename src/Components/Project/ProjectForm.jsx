@@ -5,8 +5,8 @@ import Select from "../Form/Select";
 import SubmitButton from "../Form/SubmitButton";
 import styles from "./ProjectForm.module.css";
 
-const ProjectForm = ({ btnText, projectData }) => {
-  // handleSubmit
+const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
+
   const [categories, setCategories] = useState([]);
 
   // quando um projeto é enviado para edição, passa-se pela página pai, entao precisa saber se os dados 
@@ -31,8 +31,8 @@ const ProjectForm = ({ btnText, projectData }) => {
 
   const submit = (e) => {
     e.preventDefault()
-    console.log(project);
-    // handleSubmit(project)
+    // console.log(project);
+    handleSubmit(project)
   }
   //handleChange é um método dinamico que vai alterar o valor de todo input 
   // vamos usar a mesma coisa para alterar a categoria, mudando o tipo de eventi
@@ -62,7 +62,7 @@ const ProjectForm = ({ btnText, projectData }) => {
         name="name"
         placeholder="Insira o nome do projeto"
         handleOnChange={handleChange}
-        value={project.name ? project.name : ""}
+        value={project.name}
       />
       <Input
         type="number"
@@ -70,7 +70,7 @@ const ProjectForm = ({ btnText, projectData }) => {
         name="budget"
         placeholder="Insira o valor do orçamento total"
         handleOnChange={handleChange}
-        value={project.budget ? project.budget : ""}
+        value={project.budget}
       />
       <Select 
         name="categoty_id" 

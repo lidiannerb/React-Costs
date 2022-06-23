@@ -1,6 +1,6 @@
 import styles from "./Select.module.css";
 
-const Select = ({ text, name, options, handleSelect, value }) => {
+const Select = ({ text, name, options, handleOnChange, value }) => {
   return (
     <div className={styles.form_control}>
       <label 
@@ -11,7 +11,7 @@ const Select = ({ text, name, options, handleSelect, value }) => {
       <select 
         name={name} 
         id={name} 
-        onChange={handleSelect}
+        onChange={handleOnChange}
         value={value || ""}
         >
           <option>Selecione uma opção</option>

@@ -1,9 +1,9 @@
-// import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import ProjectForm from "../Project/ProjectForm";
 import styles from "./NewProject.module.css";
 
 const NewProject = () => {
-  // const history = useHistory(); 
+  const navigate = useNavigate();
 
   //quando o usuário clicar em post será redirecionado para outra página
 
@@ -22,7 +22,7 @@ const NewProject = () => {
       .then((resposta) => resposta.json())
       .then((data) => {
         console.log(data);
-  //depois faremos o redirect
+        navigate("/Projects", { state: {message: "Projeto criado com  sucesso"}})
       })
       .catch((erro) => console.log(erro));
   };
