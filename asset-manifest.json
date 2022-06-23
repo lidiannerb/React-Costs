@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-Hora-de-codar---Costs/static/css/main.de936743.css",
+    "main.js": "/React-Hora-de-codar---Costs/static/js/main.826c4413.js",
+    "static/media/savings.svg": "/React-Hora-de-codar---Costs/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
+    "index.html": "/React-Hora-de-codar---Costs/index.html",
+    "main.de936743.css.map": "/React-Hora-de-codar---Costs/static/css/main.de936743.css.map",
+    "main.826c4413.js.map": "/React-Hora-de-codar---Costs/static/js/main.826c4413.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de936743.css",
+    "static/js/main.826c4413.js"
+  ]
+}
