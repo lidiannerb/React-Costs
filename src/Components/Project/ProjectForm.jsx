@@ -43,9 +43,10 @@ const ProjectForm = ({ handleSubmit, btnText, projectData }) => {
   }
 
   const submit = (e) => {
-    e.preventDefault();
-    handleSubmit(project);
-  };
+    e.preventDefault()
+    handleSubmit(project)
+  }
+
   // onSubmit é um evento do React, que está enviando os dados do projeto para o servidor
   return (
     <form onSubmit={submit} className={styles.form}>
