@@ -15,7 +15,7 @@ const NewProject = () => {
     fetch("http://localhost:5000/projects", {
       method: "POST",
       headers: {
-        "Content-Type": "application-json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(project) //aqui estamos enviando os dados pro servidor como string, lá no array projects
     })

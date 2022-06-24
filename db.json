@@ -1,28 +1,59 @@
 {
   "projects": [
     {
+      "name": "Projeto amorzinho",
+      "budget": "1000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
       "id": 1
     },
     {
+      "name": "Projeto Cipher",
+      "budget": "1500",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
       "id": 2
     },
     {
+      "name": "Projeto Data Lovers",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
       "id": 3
     },
     {
+      "name": "Projeto Vai dar Bom",
+      "budget": "40000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
       "id": 4
     },
     {
+      "name": "Projeto Tenha Fé",
+      "budget": "4000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
       "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
     }
   ],
   "categories": [
