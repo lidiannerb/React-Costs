@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Costs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Índice
 
-## Available Scripts
+- [1. Sobre o projeto](#1-sobre-o-projeto)
+- [2. Acesso](#2-acesso)
+- [3. Histórias de Usuário](#3-historias-de-usuario)
+- [4. Features](#4-features)
+- [5. Tecnologias Utilizadas](#5-tecnologias-utilizadas)
+- [6. Pessoa Desenvolvedora](#6-pessoa-desenvolvedora)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 1. Sobre o projeto
+ 
+ Projeto desenvolvido para fixar conceitos de React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ Curso de React - Matheus Battisti - Hora de Codar 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 2. Acesso
 
-### `npm test`
+Link do Deploy: [Costs](https://lidiannerb.github.io/React-Hora-de-codar---Costs/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ![Bagde Em desenvolvimento](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-orange) 
 
-### `npm run build`
+## 5. Histórias de Usuário 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"Eu, como gestor de projetos, gostaria de acessar uma aplicação e poder lançar um projeto com nome, valor de orçamento e categoria do projeto"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Critérios de aceitação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Ter um campo para input do nome do projeto
+- Ter um campo de valor para inserir orçamento do projeto
+- Ter um campo de input para selecionar a categoria do projeto
+- Ter a opção de criar o projeto com esses valores iniciais.
 
-### `npm run eject`
+##### Definição de pronto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Ter recebido _code review_ de pelo menos uma parceira.
+- Testar o produto manualmente.
+- Você fez _testes_ de usabilidade e incorporou o _feedback_ do usuário. (em andamento)
+- Você deu deploy de seu aplicativo e marcou sua versão (tag git).
+- Os dados devem ser mantidos intactos, mesmo depois que um projeto for
+  finalizado. Tudo isso para poder ter estatísticas no futuro.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 6. Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [x] **Criar um projeto com nome, orçamento e categoria**
+- [x] **Enviar projetos para o dashboard**
+- [x] **Visualizar os projetos na tela**
+- [x] **Editar projetos**
+- [x] **Excluir projetos**
 
-## Learn More
+## 7. Tecnologias utilizadas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **HTML**
+- **CSS**
+- **Javascript**
+- **React**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 8. Pessoa desenvolvedora
 
-### Code Splitting
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/lromao/">
+  <img align="center" alt="Lidianne"  width="150px;" style="border-radius:50px;" src="https://avatars.githubusercontent.com/u/83047245?v=4"> <br>       
+  <sub>
+          <b>Lidianne Romão</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
