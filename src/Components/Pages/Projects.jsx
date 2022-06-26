@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 
 import Message from "../Layout/Message";
 import Container from "../Layout/Container";
+import Loading from "../Layout/Loading";
 import LinkButton from "../Layout/LinkButton";
 import ProjectCard from "../Project/ProjectCard";
 
@@ -10,6 +11,7 @@ import styles from "./Projects.module.css";
 
 const Projects = () => {
   const [projects, setProjects] = useState([])
+  const [removeLoading, setRemoveLoading] = useState(false)
 
   const location = useLocation()
   let message = ""
@@ -25,8 +27,9 @@ const Projects = () => {
       },
     }).then(resposta => resposta.json())
       .then(data => {
-        console.log(data);
+        console.log(data)
         setProjects(data)
+        setRemoveLoading(true)
       })
       .catch((erro) => console.log(erro))
   }, [])
@@ -50,6 +53,7 @@ const Projects = () => {
           />
           )        
         }
+        {!removeLoading && <Loading/>}
       </Container>
     </div>
   );
