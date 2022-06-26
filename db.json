@@ -54,6 +54,17 @@
       "cost": 0,
       "services": [],
       "id": 5
+    },
+    {
+      "name": "Projeto Lab",
+      "budget": "17500",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
     }
   ],
   "categories": [
