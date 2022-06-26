@@ -18,7 +18,7 @@
 
  O Costs é um gerenciador de projetos. O objetivo é ter um maior controle dos projetos criados numa empresa, através de um dashboard onde é possível ter uma rápida e prática visualização dos projetos através de boards que contém valores de orçamentos e serviços envolvidos.
 
- O json-server é um servidor que podemos instalar localmente e neste projetos utilizamos para simular uma API, onde serão armazenadas todas as informações dos projetos criados. 
+Utilizamos o json-server como servidor local para simular uma API, onde serão armazenadas todas as informações dos projetos criados. 
  
 ## 2. Acesso
 
@@ -28,9 +28,10 @@ Link do Deploy: [Costs](https://lidiannerb.github.io/React-Hora-de-codar---Costs
 ### Como usar
 Você precisará:
 
-- Instalar o Node.js e clonar o projeto.
+- Instalar o npm e p node.js
+- Clonar o projeto
 - Instalar as dependências:  npm install
-- Instalar as dependências:  npm install json-server
+- Instalar o server:  npm install json-server
 - Iniciar a aplicação:  npm start
 - Iniciar a aplicação no servidor: npm run backend
 
