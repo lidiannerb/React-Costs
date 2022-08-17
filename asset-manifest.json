@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Hora-de-codar---Costs/static/css/main.23add1ac.css",
-    "main.js": "/React-Hora-de-codar---Costs/static/js/main.dc53d585.js",
-    "static/media/savings.svg": "/React-Hora-de-codar---Costs/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
-    "index.html": "/React-Hora-de-codar---Costs/index.html",
-    "static/media/loading.svg": "/React-Hora-de-codar---Costs/static/media/loading.cb532fb55bf84419963cc55778925f86.svg",
-    "main.23add1ac.css.map": "/React-Hora-de-codar---Costs/static/css/main.23add1ac.css.map",
-    "main.dc53d585.js.map": "/React-Hora-de-codar---Costs/static/js/main.dc53d585.js.map"
+    "main.css": "/React-Costs/static/css/main.23add1ac.css",
+    "main.js": "/React-Costs/static/js/main.55edef5f.js",
+    "static/media/savings.svg": "/React-Costs/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
+    "index.html": "/React-Costs/index.html",
+    "static/media/loading.svg": "/React-Costs/static/media/loading.cb532fb55bf84419963cc55778925f86.svg",
+    "main.23add1ac.css.map": "/React-Costs/static/css/main.23add1ac.css.map",
+    "main.55edef5f.js.map": "/React-Costs/static/js/main.55edef5f.js.map"
   },
   "entrypoints": [
     "static/css/main.23add1ac.css",
-    "static/js/main.dc53d585.js"
+    "static/js/main.55edef5f.js"
   ]
 }
