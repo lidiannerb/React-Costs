@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Hora-de-codar---Costs/static/css/main.de936743.css",
-    "main.js": "/React-Hora-de-codar---Costs/static/js/main.826c4413.js",
+    "main.css": "/React-Hora-de-codar---Costs/static/css/main.23add1ac.css",
+    "main.js": "/React-Hora-de-codar---Costs/static/js/main.dc53d585.js",
     "static/media/savings.svg": "/React-Hora-de-codar---Costs/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
     "index.html": "/React-Hora-de-codar---Costs/index.html",
-    "main.de936743.css.map": "/React-Hora-de-codar---Costs/static/css/main.de936743.css.map",
-    "main.826c4413.js.map": "/React-Hora-de-codar---Costs/static/js/main.826c4413.js.map"
+    "static/media/loading.svg": "/React-Hora-de-codar---Costs/static/media/loading.cb532fb55bf84419963cc55778925f86.svg",
+    "main.23add1ac.css.map": "/React-Hora-de-codar---Costs/static/css/main.23add1ac.css.map",
+    "main.dc53d585.js.map": "/React-Hora-de-codar---Costs/static/js/main.dc53d585.js.map"
   },
   "entrypoints": [
-    "static/css/main.de936743.css",
-    "static/js/main.826c4413.js"
+    "static/css/main.23add1ac.css",
+    "static/js/main.dc53d585.js"
   ]
 }
