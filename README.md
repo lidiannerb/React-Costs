@@ -1,5 +1,6 @@
 # COSTS
 
+![Foto](public/costs.png)
 ## Índice
 
 - [1. Sobre o projeto](#1-sobre-o-projeto)
@@ -22,7 +23,7 @@ Utilizamos o json-server como servidor local para simular uma API, onde serão a
  
 ## 2. Acesso
 
-Link do Deploy: [Costs](https://lidiannerb.github.io/React-Hora-de-codar---Costs/)
+Link do Deploy: [Costs](https://lidiannerb.github.io/React-Costs/)
 
 - ![Bagde Em desenvolvimento](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-orange) 
 ### Como usar
